@@ -20,5 +20,29 @@ export class Rocket implements Payload {
         };
         return sum;
 
-    }
+    };
+
+    currentMassKg () : number {
+        let sum : number = 0;
+        
+        
+        return sum;
+    };
+
+    canAdd(item: Payload): boolean {
+        let sum : boolean = true;
+
+        return sum;
+    };
+
+    addCargo(cargo: Cargo): boolean {
+        let sum : boolean = true;
+
+        return sum;
+    };
+
+    addAstronaut(astronaut: Astronaut): boolean {
+        let sum : boolean = true;
+        return sum;
+    };
 };
